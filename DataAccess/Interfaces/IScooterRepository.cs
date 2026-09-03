@@ -8,6 +8,6 @@ namespace DataAccess.Interfaces
     public interface IScooterRepository
     {
        // Finne alle scootere som er ledige og har batteriprosent over 20. 
-        List<Scooter> GetAvailableScooters();
+        List<Scooter> GetAvailableScootersWithBatteryAbove20();
     }
 }

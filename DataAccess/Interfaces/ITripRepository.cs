@@ -9,7 +9,7 @@ namespace DataAccess.Interfaces
     {
         //Hente alle turer som ikke er ferdige enda.
 
-        List<Trip> GetOngoingTrips();
+        List<Trip> GetActiveTrips();
 
         //Regne ut gjennomsnittlig pris per km for alle fullførte turer. '
 
