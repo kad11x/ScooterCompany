@@ -9,7 +9,7 @@ namespace Core.Model
         public int Id { get; set; }
 
         public DateTime StartTime { get; set; }
-        public DateTime EndTime { get; set; } = DateTime.MinValue;
+        public DateTime EndTime { get; set; }
         public double Distance { get; set; }
         public decimal Cost { get; set; }
 
